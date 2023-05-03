@@ -1,6 +1,6 @@
 # multipage application
 
-## Website link on the web: [Click Here](https://oksanakuzich.github.io/sigma-hw-05/)
+## Website link on the web: [Click Here](https://oksanakuzich.github.io/organic-shop/)
 
 <br>
 
