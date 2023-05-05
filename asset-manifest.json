@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/organic-shop/static/css/main.163a22a3.css",
-    "main.js": "/organic-shop/static/js/main.aa7c39e8.js",
+    "main.js": "/organic-shop/static/js/main.d1b3f17c.js",
     "static/js/238.7ae6c89d.chunk.js": "/organic-shop/static/js/238.7ae6c89d.chunk.js",
-    "static/js/683.21603940.chunk.js": "/organic-shop/static/js/683.21603940.chunk.js",
+    "static/js/683.26bcdc60.chunk.js": "/organic-shop/static/js/683.26bcdc60.chunk.js",
     "static/js/361.fa2251a3.chunk.js": "/organic-shop/static/js/361.fa2251a3.chunk.js",
     "static/js/72.3fda636e.chunk.js": "/organic-shop/static/js/72.3fda636e.chunk.js",
     "static/js/183.a99b50c8.chunk.js": "/organic-shop/static/js/183.a99b50c8.chunk.js",
@@ -40,9 +40,9 @@
     "static/media/close.svg": "/organic-shop/static/media/close.4bfcc2ac81bd4c3d0dff3b7f04e865cf.svg",
     "static/media/btn-arrow.svg": "/organic-shop/static/media/btn-arrow.c6a8290d0e6e826667a98442da9afbba.svg",
     "main.163a22a3.css.map": "/organic-shop/static/css/main.163a22a3.css.map",
-    "main.aa7c39e8.js.map": "/organic-shop/static/js/main.aa7c39e8.js.map",
+    "main.d1b3f17c.js.map": "/organic-shop/static/js/main.d1b3f17c.js.map",
     "238.7ae6c89d.chunk.js.map": "/organic-shop/static/js/238.7ae6c89d.chunk.js.map",
-    "683.21603940.chunk.js.map": "/organic-shop/static/js/683.21603940.chunk.js.map",
+    "683.26bcdc60.chunk.js.map": "/organic-shop/static/js/683.26bcdc60.chunk.js.map",
     "361.fa2251a3.chunk.js.map": "/organic-shop/static/js/361.fa2251a3.chunk.js.map",
     "72.3fda636e.chunk.js.map": "/organic-shop/static/js/72.3fda636e.chunk.js.map",
     "183.a99b50c8.chunk.js.map": "/organic-shop/static/js/183.a99b50c8.chunk.js.map",
@@ -52,6 +52,6 @@
   },
   "entrypoints": [
     "static/css/main.163a22a3.css",
-    "static/js/main.aa7c39e8.js"
+    "static/js/main.d1b3f17c.js"
   ]
 }
