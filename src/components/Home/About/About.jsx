@@ -1,6 +1,7 @@
 import { Button } from 'components/Button/Button';
 import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
+import { useNavigate } from 'react-router-dom';
 import { advantages } from './data';
 import { Container } from 'components/Container/Container.styled';
 import {
@@ -17,6 +18,12 @@ import {
 } from './About.styled';
 
 export const About = () => {
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate('/*', { replace: true });
+  };
+
   return (
     <AboutSection>
       <Container>
@@ -42,7 +49,7 @@ export const About = () => {
               </AdvantagesItem>
             ))}
           </AdvantagesList>
-          <Button stl={'blue'} text={'Shop Now'} />
+          <Button stl={'blue'} text={'Shop Now'} func={handleButtonClick} />
         </ContentWrapper>
       </Container>
     </AboutSection>
