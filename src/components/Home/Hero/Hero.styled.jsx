@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { device } from 'utiles/devices';
+import { device } from '../../../utiles/devices';
 import imageBg from '../../../images/home-2.jpg';
 import decoreImg from '../../../images/home-1.png';
 

@@ -1,11 +1,11 @@
 import { CartFormInput } from './CartFormInput';
 import { useNavigate } from 'react-router-dom';
 import { formData } from './data';
-import { Button } from 'components/Button/Button';
+import { Button } from '../../../components/Button/Button';
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
-import { useCart } from 'hooks/useCart';
-import { sendOrder } from 'service/api';
+import { useCart } from '../../../hooks/useCart';
+import { sendOrder } from '../../../service/api';
 import {
   FormStyle,
   LabelStyle,

@@ -1,6 +1,6 @@
-import { ButtomComp } from 'components/Button/Button.styled';
+import { ButtomComp } from '../../../../components/Button/Button.styled';
 import styled from 'styled-components';
-import { device } from 'utiles/devices';
+import { device } from '../../../../utiles/devices';
 import { Price, PricePromo, ProductCategory } from '../ProductListItem.styled';
 
 export const Wrapper = styled.div`

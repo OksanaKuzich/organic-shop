@@ -1,6 +1,6 @@
-import { Title } from 'components/Home/Hero/Hero.styled';
+import { Title } from '../../components/Home/Hero/Hero.styled';
 import styled from 'styled-components';
-import { device } from 'utiles/devices';
+import { device } from '../../utiles/devices';
 import bgImage from '../../images/notFound-1.jpg';
 import bgDerore from '../../images/notFound-2.png';
 

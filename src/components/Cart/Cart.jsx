@@ -1,10 +1,10 @@
-import { useCart } from 'hooks/useCart';
+import { useCart } from '../../hooks/useCart';
 import cartEmptyUrl from '../../images/cart_empty-3.jpg';
 import { CartList } from './CartList';
 import { useState, useEffect } from 'react';
-import { Button } from 'components/Button/Button';
+import { Button } from '../../components/Button/Button';
 import { CartForm } from './Form/CartForm';
-import { Title } from 'components/Home/Hero/Hero.styled';
+import { Title } from '../../components/Home/Hero/Hero.styled';
 import {
   CartSection,
   CartEmptyWrapper,

@@ -1,10 +1,10 @@
-import { ReactComponent as Logo } from 'images/icon/logo.svg';
-import { ReactComponent as SearchIcon } from 'images/icon/search.svg';
-import { ReactComponent as BasketIcon } from 'images/icon/basket.svg';
-import { useCart } from 'hooks/useCart';
+import { ReactComponent as Logo } from '../../images/icon/logo.svg';
+import { ReactComponent as SearchIcon } from '../../images/icon/search.svg';
+import { ReactComponent as BasketIcon } from '../../images/icon/basket.svg';
+import { useCart } from '../../hooks/useCart';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import { MobileMenu } from 'components/MobileMenu/MobileMenu';
+import { MobileMenu } from '../../components/MobileMenu/MobileMenu';
 import {
   HeaderSection,
   NavList,

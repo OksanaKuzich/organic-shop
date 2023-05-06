@@ -1,9 +1,9 @@
-import { Button } from 'components/Button/Button';
+import { Button } from '../../../components/Button/Button';
 import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
 import { ReactComponent as Icon } from '../../../images/icon/person.svg';
 import { newsArr } from './data';
-import { Container } from 'components/Container/Container.styled';
+import { Container } from '../../../components/Container/Container.styled';
 import {
   NewsWrapper,
   NewsTitles,

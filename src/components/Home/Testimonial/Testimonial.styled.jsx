@@ -1,6 +1,6 @@
-import { SubtitleStyle } from 'components/Home/Subtitle/Subtitle.styled';
+import { SubtitleStyle } from '../../../components/Home/Subtitle/Subtitle.styled';
 import styled from 'styled-components';
-import { device } from 'utiles/devices';
+import { device } from '../../../utiles/devices';
 import testimonialBg from '../../../images/testimonial.jpg';
 
 export const TestimonialSection = styled.section`

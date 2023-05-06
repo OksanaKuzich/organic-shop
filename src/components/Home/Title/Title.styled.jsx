@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { device } from 'utiles/devices';
+import { device } from '../../../utiles/devices';
 
 export const TitleStyle = styled.h2`
   font-weight: ${props => props.theme.fontWeights.fw800};

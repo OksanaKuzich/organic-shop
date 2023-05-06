@@ -1,6 +1,6 @@
-import { Button } from 'components/Button/Button';
+import { Button } from '../../../components/Button/Button';
 import { useNavigate } from 'react-router-dom';
-import { Container } from 'components/Container/Container.styled';
+import { Container } from '../../../components/Container/Container.styled';
 import { HeroSection, Subtitle, Title } from './Hero.styled';
 
 export const Hero = () => {

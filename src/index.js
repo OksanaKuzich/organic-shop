@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
+import { App } from './App';
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
-import { theme } from 'utiles/theme';
+import { theme } from './utiles/theme';
 import { CartProvider } from './hooks/useCart';
 
 ReactDOM.createRoot(document.getElementById('root')).render(

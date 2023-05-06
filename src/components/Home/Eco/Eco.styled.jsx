@@ -1,6 +1,6 @@
-import { Container } from 'components/Container/Container.styled';
+import { Container } from '../../../components/Container/Container.styled';
 import styled from 'styled-components';
-import { device } from 'utiles/devices';
+import { device } from '../../../utiles/devices';
 import imageBg from '../../../images/eco.jpg';
 import { SubtitleStyle } from '../Subtitle/Subtitle.styled';
 import { TitleStyle } from '../Title/Title.styled';

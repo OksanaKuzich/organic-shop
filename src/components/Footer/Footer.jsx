@@ -1,6 +1,6 @@
 import { contacts, messengers, pages } from './data';
-import { ReactComponent as Logo } from 'images/icon/logo.svg';
-import { Container } from 'components/Container/Container.styled';
+import { ReactComponent as Logo } from '../../images/icon/logo.svg';
+import { Container } from '../../components/Container/Container.styled';
 import {
   FooterWrapper,
   FooterTitle,

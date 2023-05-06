@@ -1,6 +1,6 @@
-import { Subtitle } from 'components/Home/Subtitle/Subtitle';
-import { Title } from 'components/Home/Title/Title';
-import { Rate } from 'components/Home/Products/Rate';
+import { Subtitle } from '../../../components/Home/Subtitle/Subtitle';
+import { Title } from '../../../components/Home/Title/Title';
+import { Rate } from '../../../components/Home/Products/Rate';
 import reviewsImg from '../../../images/testimonial-2.png';
 import { Info } from './Info';
 import {
@@ -12,7 +12,7 @@ import {
   ReviewsNamePosition,
   InfoWrapper,
 } from './Testimonial.styled';
-import { DecoreEl } from 'components/Home/Products/ProductListItem.styled';
+import { DecoreEl } from '../../../components/Home/Products/ProductListItem.styled';
 
 export const Testimonial = () => {
   return (

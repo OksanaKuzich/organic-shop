@@ -3,8 +3,8 @@ import { ProductsListItem } from './ProductListItem';
 import { getAllProducts, getPopularProducts } from '../../../service/api';
 import { ProductModal } from './ProductModal/ProductModal';
 import { ProductsListStyle } from './ProductsList.styled';
-import { Preloader } from 'components/Preloader/Preloader';
-import { getOneProducts } from 'service/api';
+import { Preloader } from '../../../components/Preloader/Preloader';
+import { getOneProducts } from '../../../service/api';
 
 export const ProductsList = ({
   products,

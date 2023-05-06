@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { device } from 'utiles/devices';
+import { device } from '../../../utiles/devices';
 import formBg from '../../../images/subscribe.jpg';
 
 export const SubscribeSection = styled.section`

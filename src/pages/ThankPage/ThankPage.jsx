@@ -1,4 +1,4 @@
-import { Title } from 'components/Home/Hero/Hero.styled';
+import { Title } from '../../components/Home/Hero/Hero.styled';
 import { ThankPageSection, Image } from './ThankPage.styled';
 import thankImage from '../../images/thank.jpg';
 

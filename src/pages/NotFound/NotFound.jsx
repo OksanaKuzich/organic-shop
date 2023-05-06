@@ -1,5 +1,5 @@
-import { Button } from 'components/Button/Button';
-import { Title } from 'components/Home/Hero/Hero.styled';
+import { Button } from '../../components/Button/Button';
+import { Title } from '../../components/Home/Hero/Hero.styled';
 import notFound from '../../images/404.png';
 import { useNavigate } from 'react-router-dom';
 import {

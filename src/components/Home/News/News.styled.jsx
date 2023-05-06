@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { device } from 'utiles/devices';
+import { device } from '../../../utiles/devices';
 
 export const NewsWrapper = styled.div`
   margin-bottom: 48px;

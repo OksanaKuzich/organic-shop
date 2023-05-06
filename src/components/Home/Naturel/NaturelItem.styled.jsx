@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { device } from 'utiles/devices';
+import { device } from '../../../utiles/devices';
 import imageBgFirst from '../../../images/natural-1.jpg';
 import imageBgSecont from '../../../images/natural-2.jpg';
 
@@ -67,5 +67,5 @@ export const CardItem = styled.li`
   @media ${device.desktop} {
     width: 682px;
     height: 367px;
-  } ;
+  }
 `;

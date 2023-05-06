@@ -1,7 +1,7 @@
 import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
 import { ecoArr } from './data';
-import { Container } from 'components/Container/Container.styled';
+import { Container } from '../../../components/Container/Container.styled';
 import {
   EcoSection,
   Image,

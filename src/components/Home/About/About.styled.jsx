@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { device } from 'utiles/devices';
+import { device } from '../../../utiles/devices';
 import FruitImage from '../../../images/about.png';
 import { SubtitleStyle } from '../Subtitle/Subtitle.styled';
 

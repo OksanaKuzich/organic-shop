@@ -1,9 +1,9 @@
 import {
   Price,
   PricePromo,
-} from 'components/Home/Products/ProductListItem.styled';
+} from '../../components/Home/Products/ProductListItem.styled';
 import styled from 'styled-components';
-import { device } from 'utiles/devices';
+import { device } from '../../utiles/devices';
 
 export const CartListStyle = styled.ul`
   margin-bottom: 46px;
