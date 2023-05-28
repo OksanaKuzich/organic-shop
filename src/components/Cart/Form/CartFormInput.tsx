@@ -1,6 +1,6 @@
 import { InputStyle, LabelStyle, ValidationMessage } from './CartForm.styled';
 
-export const CartFormInput = ({
+export const CartFormInput: React.FC<IProps> = ({
   labelName,
   name,
   placeholder,

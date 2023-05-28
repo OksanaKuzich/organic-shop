@@ -1,7 +1,7 @@
 import { CartFormInput } from './CartFormInput';
 import { useNavigate } from 'react-router-dom';
 import { formData } from './data';
-import { Button } from '../../../components/Button/Button';
+import { Button } from '../../Button/Button';
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import { useCart } from '../../../hooks/useCart';
@@ -39,7 +39,7 @@ const validationSchema = Yup.object().shape({
   message: Yup.string().min(2, 'Too Short!').max(50, 'Too Long!'),
 });
 
-export const CartForm = () => {
+export const CartForm: React.FC<IProps> = () => {
   const { cart, setCart } = useCart();
   const navigate = useNavigate();
 

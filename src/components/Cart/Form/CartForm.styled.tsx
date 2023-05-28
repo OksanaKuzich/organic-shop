@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { device } from '../../../utiles/devices';
 import { Field } from 'formik';
-import { ButtomComp } from '../../../components/Button/Button.styled';
+import { ButtomComp } from '../../Button/Button.styled';
 
 export const FormStyle = styled.div`
   display: flex;
