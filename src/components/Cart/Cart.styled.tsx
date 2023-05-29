@@ -1,4 +1,4 @@
-import { Title } from '../../components/Home/Hero/Hero.styled';
+import { Title } from '../Home/Hero/Hero.styled';
 import styled from 'styled-components';
 import { device } from '../../utiles/devices';
 import CartDecoreBg from '../../images/cart-1.png';

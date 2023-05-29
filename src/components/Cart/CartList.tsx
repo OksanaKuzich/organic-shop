@@ -1,9 +1,6 @@
 import { ReactComponent as BtnDelete } from '../../images/icon/close.svg';
 import { useCart } from '../../hooks/useCart';
-import {
-  Price,
-  PricePromo,
-} from '../../components/Home/Products/ProductListItem.styled';
+import { Price, PricePromo } from '../Home/Products/ProductListItem.styled';
 import {
   CartListStyle,
   CartItem,

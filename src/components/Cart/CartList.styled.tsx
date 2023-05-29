@@ -1,7 +1,4 @@
-import {
-  Price,
-  PricePromo,
-} from '../../components/Home/Products/ProductListItem.styled';
+import { Price, PricePromo } from '../Home/Products/ProductListItem.styled';
 import styled from 'styled-components';
 import { device } from '../../utiles/devices';
 
