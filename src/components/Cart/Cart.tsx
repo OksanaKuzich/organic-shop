@@ -14,7 +14,7 @@ import {
   CartBgImage,
 } from './Cart.styled';
 
-export const Cart = () => {
+export const Cart: React.FC<IProps> = () => {
   const { cart } = useCart();
   const [cartLocal, setCardLocal] = useState(cart);
   const [isOrderBtnClick, setIsOrderBtnClick] = useState(false);

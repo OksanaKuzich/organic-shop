@@ -14,7 +14,7 @@ import {
   BtnWrapper,
 } from './CartList.styled';
 
-export const CartList = ({ cartLocal, setCardLocal }) => {
+export const CartList: React.FC<IProps> = ({ cartLocal, setCardLocal }) => {
   const { cart, setCart } = useCart();
 
   const quantityToNumber = amount => {
