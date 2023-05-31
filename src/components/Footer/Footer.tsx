@@ -1,6 +1,6 @@
 import { contacts, messengers, pages } from './data';
 import { ReactComponent as Logo } from '../../images/icon/logo.svg';
-import { Container } from '../../components/Container/Container.styled';
+import { Container } from '../Container/Container.styled';
 import {
   FooterWrapper,
   FooterTitle,
@@ -18,7 +18,7 @@ import {
   CopyrightAccent,
 } from './Footer.styles';
 
-export const Footer = () => {
+export const Footer: React.FC<IProps> = () => {
   return (
     <footer>
       <Container>
