@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { device } from '../..//utiles/devices';
+import { device } from '../../utiles/devices';
 import { Link } from 'react-router-dom';
 import { ReactComponent as IconMobMenu } from '../../images/icon/menu-burger.svg';
 

@@ -4,7 +4,7 @@ import { ReactComponent as BasketIcon } from '../../images/icon/basket.svg';
 import { useCart } from '../../hooks/useCart';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import { MobileMenu } from '../../components/MobileMenu/MobileMenu';
+import { MobileMenu } from '../MobileMenu/MobileMenu';
 import {
   HeaderSection,
   NavList,
