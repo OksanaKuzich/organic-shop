@@ -1,9 +1,9 @@
-import { Button } from '../../../components/Button/Button';
+import { Button } from '../../Button/Button';
 import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
 import { useNavigate } from 'react-router-dom';
 import { advantages } from './data';
-import { Container } from '../../../components/Container/Container.styled';
+import { Container } from '../../Container/Container.styled';
 import {
   AboutSection,
   ImageWrapper,
