@@ -1,6 +1,7 @@
+import React from 'react';
 import { Button } from '../../Button/Button';
 import { Subtitle } from '../Subtitle/Subtitle';
-import { Title } from '../Title/Title';
+import { Title } from '../../Title/Title';
 import { useNavigate } from 'react-router-dom';
 import { advantages } from './data';
 import { Container } from '../../Container/Container.styled';
@@ -17,10 +18,10 @@ import {
   AdvantagesSubtitle,
 } from './About.styled';
 
-export const About = () => {
+export const About: React.FC = () => {
   const navigate = useNavigate();
 
-  const handleButtonClick = () => {
+  const handleButtonClick = (): void => {
     navigate('/*', { replace: true });
   };
 
@@ -37,7 +38,7 @@ export const About = () => {
             1500s, when an unknown printer took a galley.
           </Content>
           <AdvantagesList>
-            {advantages.map(({ title, text, icon }) => (
+            {advantages.map(({ title, text, icon }: Advantage) => (
               <AdvantagesItem key={title}>
                 <AdvantagesWrapper>
                   <Image src={icon} alt="icon advantages" />
