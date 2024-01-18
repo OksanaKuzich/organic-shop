@@ -1,6 +1,7 @@
+import React from 'react';
 import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
-import { ecoArr } from './data';
+import { ecoArr, EcoData } from './data'; // Assuming there is a type for the data, replace 'EcoData' with the actual type
 import { Container } from '../../../components/Container/Container.styled';
 import {
   EcoSection,
@@ -11,7 +12,7 @@ import {
   EcoItemSubtitle,
 } from './Eco.styled';
 
-export const Eco = () => {
+export const Eco: React.FC = () => {
   return (
     <EcoSection>
       <Container>
@@ -20,7 +21,7 @@ export const Eco = () => {
           <Subtitle text={'Eco Friendly'} />
           <Title text={'Econis is a Friendly Organic Store'} />
           <EcoList>
-            {ecoArr.map(({ title, subtitle }) => (
+            {ecoArr.map(({ title, subtitle }: EcoData) => (
               <li key={title}>
                 <EcoItemTitle>{title}</EcoItemTitle>
                 <EcoItemSubtitle>{subtitle}</EcoItemSubtitle>
