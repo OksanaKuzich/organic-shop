@@ -1,8 +1,9 @@
+import React from 'react';
 import { Button } from '../../../components/Button/Button';
 import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
 import { ReactComponent as Icon } from '../../../images/icon/person.svg';
-import { newsArr } from './data';
+import { newsArr, NewsItemData } from './data'; // Assuming there is a type for the data, replace 'NewsItemData' with the actual type
 import { Container } from '../../../components/Container/Container.styled';
 import {
   NewsWrapper,
@@ -17,7 +18,7 @@ import {
   CardInfo,
 } from './News.styled';
 
-export const News = () => {
+export const News: React.FC = () => {
   return (
     <section>
       <Container>
@@ -31,7 +32,7 @@ export const News = () => {
           <Button text={'More News'} stl="white" />
         </NewsWrapper>
         <NewsList>
-          {newsArr.map(({ image, author, title, info, date }) => {
+          {newsArr.map(({ image, author, title, info, date }: NewsItemData) => {
             return (
               <NewsItem key={title}>
                 <Image src={image} alt={title} />

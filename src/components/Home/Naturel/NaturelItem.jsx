@@ -1,4 +1,5 @@
-import { naturelCards } from './data';
+import React from 'react';
+import { naturelCards, NaturelCardData } from './data'; // Assuming there is a type for the data, replace 'NaturelCardData' with the actual type
 import {
   CardWrapper,
   CardItem,
@@ -7,10 +8,10 @@ import {
   CardTitle,
 } from './NaturelItem.styled';
 
-export const NaturelItem = () => {
+export const NaturelItem: React.FC = () => {
   return (
     <CardWrapper>
-      {naturelCards.map(item => (
+      {naturelCards.map((item: NaturelCardData) => (
         <CardItem key={item.subtitle}>
           <ContentWrapper>
             <CardSubtitle>{item.subtitle}</CardSubtitle>
