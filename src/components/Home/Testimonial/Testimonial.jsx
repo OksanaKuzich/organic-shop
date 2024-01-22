@@ -1,3 +1,4 @@
+import React from 'react';
 import { Subtitle } from '../../../components/Home/Subtitle/Subtitle';
 import { Title } from '../../../components/Home/Title/Title';
 import { Rate } from '../../../components/Home/Products/Rate';
@@ -14,7 +15,7 @@ import {
 } from './Testimonial.styled';
 import { DecoreEl } from '../../../components/Home/Products/ProductListItem.styled';
 
-export const Testimonial = () => {
+const Testimonial: React.FC = () => {
   return (
     <TestimonialSection>
       <Subtitle text={'Testimonial'} />
@@ -37,3 +38,5 @@ export const Testimonial = () => {
     </TestimonialSection>
   );
 };
+
+export default Testimonial;
