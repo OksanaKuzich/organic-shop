@@ -2,7 +2,7 @@ import React from 'react';
 import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
 import { ecoArr, EcoData } from './data'; // Assuming there is a type for the data, replace 'EcoData' with the actual type
-import { Container } from '../../../components/Container/Container.styled';
+import { Container } from '../../Container/Container.styled';
 import {
   EcoSection,
   Image,

@@ -1,4 +1,4 @@
-import { Container } from '../../../components/Container/Container.styled';
+import { Container } from '../../Container/Container.styled';
 import styled from 'styled-components';
 import { device } from '../../../utiles/devices';
 import imageBg from '../../../images/eco.jpg';
