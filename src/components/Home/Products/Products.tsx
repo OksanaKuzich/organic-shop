@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
-import { Button } from '../../../components/Button/Button';
+import { Button } from '../../Button/Button';
 import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
 import { ProductsList } from './ProductsList';
 import { getPopularProducts } from '../../../service/api';
-import { Container } from '../../../components/Container/Container.styled';
+import { Container } from '../../Container/Container.styled';
 import { ProductsSection } from './Products.styled';
-import { Preloader } from '../../../components/Preloader/Preloader';
+import { Preloader } from '../../Preloader/Preloader';
 
 export const Products = () => {
   const [products, setProducts] = useState([]);

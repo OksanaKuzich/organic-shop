@@ -1,4 +1,4 @@
-import { SubtitleStyle } from '../../../components/Home/Subtitle/Subtitle.styled';
+import { SubtitleStyle } from '../Subtitle/Subtitle.styled';
 import styled from 'styled-components';
 import { device } from '../../../utiles/devices';
 import testimonialBg from '../../../images/testimonial.jpg';

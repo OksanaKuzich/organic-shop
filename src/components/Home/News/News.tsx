@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button } from '../../../components/Button/Button';
+import { Button } from '../../Button/Button';
 import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
 import { ReactComponent as Icon } from '../../../images/icon/person.svg';
 import { newsArr, NewsItemData } from './data'; // Assuming there is a type for the data, replace 'NewsItemData' with the actual type
-import { Container } from '../../../components/Container/Container.styled';
+import { Container } from '../../Container/Container.styled';
 import {
   NewsWrapper,
   NewsTitles,

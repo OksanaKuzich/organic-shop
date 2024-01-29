@@ -1,3 +1,4 @@
+import React from 'react';
 import { ReactComponent as IconArrow } from './images/icon/btn-arrow.svg';
 import { ButtomComp, IconArrowWrapper, Wrapper } from './Button.styled';
 

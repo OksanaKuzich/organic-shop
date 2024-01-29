@@ -3,7 +3,7 @@ import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
 import { getRandomProducts } from '../../../service/api';
 import { ProductsListItem } from '../Products/ProductListItem';
-import { Container } from '../../../components/Container/Container.styled';
+import { Container } from '../../Container/Container.styled';
 import { OfferSection, RandomList } from './Offer.styled';
 
 export const Offer = () => {

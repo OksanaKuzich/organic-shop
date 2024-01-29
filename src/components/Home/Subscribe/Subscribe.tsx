@@ -1,5 +1,5 @@
-import { Button } from '../../../components/Button/Button';
-import { Container } from '../../../components/Container/Container.styled';
+import { Button } from '../../Button/Button';
+import { Container } from '../../Container/Container.styled';
 import {
   SubscribeSection,
   SubscribeForm,

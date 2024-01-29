@@ -4,7 +4,7 @@ import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import { useEffect, useState } from 'react';
 
 import { ReactComponent as BtnClose } from '../../../../images/icon/close.svg';
-import { Button } from '../../../../components/Button/Button';
+import { Button } from '../../../Button/Button';
 import { useCart } from '../../../../hooks/useCart';
 import {
   Wrapper,
